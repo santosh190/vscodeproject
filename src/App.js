@@ -40,12 +40,12 @@ function App() {
   return (
     <div>
       <div className="upper">
-        <h1>Weather App</h1>
+        <h1>Weather APP</h1>
         <input   
           type="text"
           className="t"
           value={inputCity} 
-          
+
           onChange={handlechangecity}
         />
         <br />
